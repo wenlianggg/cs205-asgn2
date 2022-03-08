@@ -5,7 +5,7 @@ import java.io.IOException;
 
 public class Printer {
 
-    public static final boolean ENABLED = true;
+    public static final boolean ENABLED = false;
 
     public static void printf(String fmt, Object ...objs) {
         println(String.format(fmt, objs));
@@ -19,6 +19,7 @@ public class Printer {
         }
 
         System.out.println(String.join(" ", strs));
+        System.out.flush();
 
         try (FileWriter file = new FileWriter("foodmanager-log.txt", true)) {
             file.write(String.join(" ", strs) + "\n");

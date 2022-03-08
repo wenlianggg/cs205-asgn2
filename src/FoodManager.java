@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.TimeUnit;
 
 import machine.Machine;
 import machine.MakerBurger;
@@ -83,8 +84,8 @@ public class FoodManager {
             boolean killed = false;
 
             while (!killed) {
-                try { Thread.sleep(1500); } catch (InterruptedException e) {};
-                LocalDateTime cutoff = LocalDateTime.now().minusSeconds(5);
+                try { TimeUnit.SECONDS.sleep(10); } catch (InterruptedException e) {};
+                LocalDateTime cutoff = LocalDateTime.now().minusSeconds(10);
                 if (commonPool.lastAction.isBefore(cutoff)) {
                     Printer.println("Summary:");
                     try { Thread.sleep(10000); } catch (InterruptedException e) {};

@@ -26,16 +26,16 @@ public class PackerHotdog implements Machine {
     public void run() {
         try {
             while (true) {
-                Hotdog hotdog1 = commonPool.removeFirstHotdog();
-                Hotdog hotdog2 = commonPool.removeSecondHotdog();
+                Machine.simulateWork(2000);
+                Hotdog hotdog1 = commonPool.removeHotdog(1);
+                Hotdog hotdog2 = commonPool.removeHotdog(2);
                 Printer.printf(
                         "%s gets hotdogs id:%d from %s and id:%d from %s",
                         getMachineId(), hotdog1.getId(), hotdog1.getMaker(), hotdog2.getId(), hotdog2.getMaker());
                 completed += 2;
             }
-        } catch (InterruptedException e) {
-            exitMessage = String.format("%s packs %d", getMachineId(), completed);
-        }
+        } catch (InterruptedException e) { }
+        exitMessage = String.format("%s packs %d", getMachineId(), completed);
     }
 
     @Override

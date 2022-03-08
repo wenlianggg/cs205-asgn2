@@ -26,6 +26,7 @@ public class PackerBurger implements Machine {
     public void run() {
         try {
             while (true) {
+                Machine.simulateWork(2000);
                 Burger burger = commonPool.removeBurger();
                 Printer.printf(
                     "%s gets burger id:%d from %s",
@@ -33,9 +34,8 @@ public class PackerBurger implements Machine {
                 );
                 completed++;
             }
-        }  catch (InterruptedException e) {
-            exitMessage = String.format("%s packs %d", getMachineId(), completed);
-        }
+        }  catch (InterruptedException e) { }
+        exitMessage = String.format("%s packs %d", getMachineId(), completed);
     }
 
     @Override

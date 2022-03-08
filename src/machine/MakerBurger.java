@@ -30,20 +30,15 @@ public class MakerBurger implements Machine, Packer {
     @Override
     public void run() {
         int currentId = -1;
-        while ((currentId = todoList.takeBurgerOrder()) != -1) {
-            try {
-                Thread.sleep(8000);
+        try {
+            while ((currentId = todoList.takeBurgerOrder()) != -1) {
+                Machine.simulateWork(8000);
                 Burger burger = new Burger(currentId, getMachineId());
                 commonPool.add(burger, getMachineId()); 
-                Printer.printf(
-                    "%s puts burger id:%d",
-                    getMachineId(), burger.getId()
-                );
+                Printer.printf("%s puts burger id:%d", getMachineId(), burger.getId());
                 completed++;
-            } catch (InterruptedException e) {
-                return;
             }
-        }
+        } catch (InterruptedException e) { }
         exitMessage = String.format("%s makes %d", getMachineId(), completed);
     }
 

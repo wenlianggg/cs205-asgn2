@@ -30,20 +30,15 @@ public class MakerHotdog implements Machine {
     @Override
     public void run() {
         int currentId = -1;
-        while ((currentId = todoList.takeHotdogOrder()) != -1) {
-            try {
-                Thread.sleep(3000);
+        try {
+            while ((currentId = todoList.takeHotdogOrder()) != -1) {
+                Machine.simulateWork(3000);
                 Hotdog hotdog = new Hotdog(currentId, getMachineId());
-                commonPool.add(hotdog, getMachineId()); 
-                Printer.printf(
-                    "%s puts hotdog id:%d",
-                    getMachineId(), hotdog.getId()
-                );
-            } catch (InterruptedException e) {
-                return;
+                commonPool.add(hotdog, getMachineId());
+                Printer.printf("%s puts hotdog id:%d", getMachineId(), hotdog.getId());
+                completed++;
             }
-            completed++;
-        }
+        } catch (InterruptedException e) { }
         exitMessage = String.format("%s makes %d", getMachineId(), completed);
     }
 
