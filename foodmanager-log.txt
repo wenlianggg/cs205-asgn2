@@ -20232,3 +20232,1504 @@ hc0 packs 4
 hc1 packs 6
 bc0 packs 5
 bc1 packs 5
+Hotdogs: 10
+Burgers: 10
+Capacity: 5
+Hotdog Makers: 2
+Burger Makers: 2
+Hotdog Packers: 2
+Burger Packers: 2
+hm1 puts hotdog id:1
+hm0 puts hotdog id:0
+hc0 gets hotdogs id:1 from hm1 and id:0 from hm0
+hm1 puts hotdog id:2
+bm1 puts burger id:1
+bm0 puts burger id:0
+hm1 puts hotdog id:4
+bc1 gets burger id:1 from bm1
+bc0 gets burger id:0 from bm0
+hm0 puts hotdog id:3
+hm1 puts hotdog id:5
+hc1 gets hotdogs id:2 from hm1 and id:4 from hm1
+hm0 puts hotdog id:6
+bm1 puts burger id:2
+hm1 puts hotdog id:7
+bm0 puts burger id:3
+hc0 gets hotdogs id:3 from hm0 and id:5 from hm1
+hm0 puts hotdog id:8
+bc1 gets burger id:2 from bm1
+hc1 gets hotdogs id:6 from hm0 and id:7 from hm1
+hm1 puts hotdog id:9
+bc0 gets burger id:3 from bm0
+bm1 puts burger id:4
+hc0 gets hotdogs id:8 from hm0 and id:9 from hm1
+bc0 gets burger id:4 from bm1
+bm0 puts burger id:5
+bc1 gets burger id:5 from bm0
+bm1 puts burger id:6
+bc0 gets burger id:6 from bm1
+bm0 puts burger id:7
+bc1 gets burger id:7 from bm0
+bm1 puts burger id:8
+bc1 gets burger id:8 from bm1
+bm0 puts burger id:9
+bc0 gets burger id:9 from bm0
+Summary:
+hm0 makes 4
+hm1 makes 6
+bm0 makes 5
+bm1 makes 5
+hc0 packs 6
+hc1 packs 4
+bc0 packs 5
+bc1 packs 5
+Hotdogs: 20
+Burgers: 20
+Capacity: 5
+Hotdog Makers: 2
+Burger Makers: 2
+Hotdog Packers: 2
+Burger Packers: 2
+hm0 puts hotdog id:0
+hm1 puts hotdog id:1
+hc1 gets hotdogs id:0 from hm0 and id:1 from hm1
+hm0 puts hotdog id:2
+bm1 puts burger id:1
+bm0 puts burger id:0
+hm0 puts hotdog id:4
+bc1 gets burger id:1 from bm1
+bc0 gets burger id:0 from bm0
+hm1 puts hotdog id:3
+hm0 puts hotdog id:5
+hc0 gets hotdogs id:2 from hm0 and id:4 from hm0
+hm1 puts hotdog id:6
+bm1 puts burger id:2
+hm0 puts hotdog id:7
+bm0 puts burger id:3
+hc1 gets hotdogs id:3 from hm1 and id:5 from hm0
+hm1 puts hotdog id:8
+bc1 gets burger id:2 from bm1
+hc0 gets hotdogs id:6 from hm1 and id:7 from hm0
+Hotdogs: 10000
+Burgers: 10000
+Capacity: 5
+Hotdog Makers: 2
+Burger Makers: 2
+Hotdog Packers: 2
+Burger Packers: 2
+hm1 puts hotdog id:0
+hm0 puts hotdog id:1
+hc1 gets hotdogs id:0 from hm1 and id:1 from hm0
+hm1 puts hotdog id:2
+Hotdogs: 10000
+Burgers: 10000
+Capacity: 5
+Hotdog Makers: 20
+Burger Makers: 20
+Hotdog Packers: 20
+Burger Packers: 20
+hm5 puts hotdog id:3
+hm9 puts hotdog id:7
+hm12 puts hotdog id:11
+hm7 puts hotdog id:10
+hm0 puts hotdog id:0
+hm18 puts hotdog id:18
+hc18 gets hotdogs id:3 from hm5 and id:7 from hm9
+hc6 gets hotdogs id:11 from hm12 and id:10 from hm7
+hm0 puts hotdog id:24
+hm5 puts hotdog id:20
+bm9 puts burger id:9
+bm13 puts burger id:13
+hc7 gets hotdogs id:0 from hm0 and id:18 from hm18
+hm18 puts hotdog id:25
+hc4 gets hotdogs id:24 from hm0 and id:20 from hm5
+bc6 gets burger id:9 from bm9
+bc8 gets burger id:13 from bm13
+hm18 puts hotdog id:28
+hm0 puts hotdog id:26
+hm7 puts hotdog id:23
+hm19 puts hotdog id:19
+hc8 gets hotdogs id:25 from hm18 and id:28 from hm18
+hc13 gets hotdogs id:26 from hm0 and id:23 from hm7
+hm19 puts hotdog id:32
+hm7 puts hotdog id:31
+bm9 puts burger id:20
+bm13 puts burger id:21
+hm18 puts hotdog id:29
+hc9 gets hotdogs id:19 from hm19 and id:32 from hm19
+hm5 puts hotdog id:27
+bc0 gets burger id:20 from bm9
+bc11 gets burger id:21 from bm13
+hm19 puts hotdog id:33
+hm7 puts hotdog id:34
+hm0 puts hotdog id:30
+hc12 gets hotdogs id:31 from hm7 and id:29 from hm18
+hm19 puts hotdog id:37
+hc17 gets hotdogs id:27 from hm5 and id:33 from hm19
+hm5 puts hotdog id:36
+bm9 puts burger id:22
+hm18 puts hotdog id:35
+hc10 gets hotdogs id:34 from hm7 and id:30 from hm0
+hm19 puts hotdog id:40
+hm5 puts hotdog id:41
+hc16 gets hotdogs id:37 from hm19 and id:36 from hm5
+bc15 gets burger id:22 from bm9
+bm13 puts burger id:23
+bm5 puts burger id:5
+hc11 gets hotdogs id:35 from hm18 and id:40 from hm19
+hm7 puts hotdog id:38
+hm0 puts hotdog id:39
+bm9 puts burger id:24
+bc17 gets burger id:23 from bm13
+bc14 gets burger id:5 from bm5
+hm18 puts hotdog id:42
+hm11 puts hotdog id:9
+hc19 gets hotdogs id:41 from hm5 and id:38 from hm7
+hm19 puts hotdog id:43
+hm7 puts hotdog id:45
+bc17 gets burger id:24 from bm9
+bm12 puts burger id:12
+hc14 gets hotdogs id:39 from hm0 and id:42 from hm18
+hm11 puts hotdog id:48
+hc1 gets hotdogs id:9 from hm11 and id:43 from hm19
+bm9 puts burger id:27
+hm19 puts hotdog id:49
+bc17 gets burger id:12 from bm12
+hm18 puts hotdog id:47
+bm12 puts burger id:28
+hc0 gets hotdogs id:45 from hm7 and id:48 from hm11
+hm11 puts hotdog id:51
+bc14 gets burger id:27 from bm9
+bm5 puts burger id:26
+hc3 gets hotdogs id:49 from hm19 and id:47 from hm18
+bc17 gets burger id:28 from bm12
+hm19 puts hotdog id:52
+bm12 puts burger id:30
+bc14 gets burger id:26 from bm5
+hm18 puts hotdog id:53
+bm9 puts burger id:29
+hm7 puts hotdog id:50
+hc15 gets hotdogs id:51 from hm11 and id:52 from hm19
+bc17 gets burger id:30 from bm12
+hm7 puts hotdog id:57
+bc17 gets burger id:29 from bm9
+hm19 puts hotdog id:55
+bm5 puts burger id:31
+hm11 puts hotdog id:54
+hc2 gets hotdogs id:53 from hm18 and id:50 from hm7
+bm12 puts burger id:32
+bm9 puts burger id:33
+hc15 gets hotdogs id:57 from hm7 and id:55 from hm19
+hm11 puts hotdog id:60
+bc7 gets burger id:31 from bm5
+hm3 puts hotdog id:1
+bm5 puts burger id:34
+bc18 gets burger id:32 from bm12
+bc19 gets burger id:33 from bm9
+hm7 puts hotdog id:58
+hm18 puts hotdog id:56
+hc3 gets hotdogs id:54 from hm11 and id:60 from hm11
+hm3 puts hotdog id:62
+bm12 puts burger id:35
+bc10 gets burger id:34 from bm5
+hm3 puts hotdog id:65
+hc0 gets hotdogs id:1 from hm3 and id:58 from hm7
+hm7 puts hotdog id:63
+hm3 puts hotdog id:66
+hc1 gets hotdogs id:56 from hm18 and id:62 from hm3
+hm7 puts hotdog id:67
+bc10 gets burger id:35 from bm12
+hm18 puts hotdog id:64
+hc14 gets hotdogs id:65 from hm3 and id:63 from hm7
+hc19 gets hotdogs id:66 from hm3 and id:67 from hm7
+hm11 puts hotdog id:61
+hm8 puts hotdog id:6
+hm2 puts hotdog id:2
+hm13 puts hotdog id:14
+hm11 puts hotdog id:71
+hc11 gets hotdogs id:64 from hm18 and id:61 from hm11
+hm2 puts hotdog id:73
+hm11 puts hotdog id:75
+hc16 gets hotdogs id:6 from hm8 and id:2 from hm2
+hm7 puts hotdog id:69
+hm8 puts hotdog id:72
+hc10 gets hotdogs id:14 from hm13 and id:71 from hm11
+hm13 puts hotdog id:74
+hm2 puts hotdog id:76
+hc17 gets hotdogs id:73 from hm2 and id:75 from hm11
+hm13 puts hotdog id:80
+hm7 puts hotdog id:78
+hc16 gets hotdogs id:69 from hm7 and id:72 from hm8
+hm13 puts hotdog id:82
+hm7 puts hotdog id:83
+hc11 gets hotdogs id:74 from hm13 and id:76 from hm2
+hm2 puts hotdog id:81
+hm6 puts hotdog id:12
+hc19 gets hotdogs id:80 from hm13 and id:78 from hm7
+hc14 gets hotdogs id:82 from hm13 and id:83 from hm7
+hm18 puts hotdog id:70
+bm12 puts burger id:38
+hm3 puts hotdog id:68
+hm11 puts hotdog id:77
+hc1 gets hotdogs id:81 from hm2 and id:12 from hm6
+bc6 gets burger id:38 from bm12
+hm6 puts hotdog id:87
+hm13 puts hotdog id:84
+bm5 puts burger id:37
+hc15 gets hotdogs id:70 from hm18 and id:68 from hm3
+hm3 puts hotdog id:89
+hm11 puts hotdog id:90
+hc2 gets hotdogs id:77 from hm11 and id:87 from hm6
+hm13 puts hotdog id:92
+hm6 puts hotdog id:91
+bc7 gets burger id:37 from bm5
+bm12 puts burger id:39
+hc15 gets hotdogs id:84 from hm13 and id:89 from hm3
+hm18 puts hotdog id:88
+hm7 puts hotdog id:85
+hc1 gets hotdogs id:90 from hm11 and id:92 from hm13
+bm5 puts burger id:40
+hm13 puts hotdog id:95
+bc14 gets burger id:39 from bm12
+hm3 puts hotdog id:93
+hc3 gets hotdogs id:91 from hm6 and id:88 from hm18
+bc10 gets burger id:40 from bm5
+hm18 puts hotdog id:97
+hm11 puts hotdog id:94
+hm8 puts hotdog id:79
+hc0 gets hotdogs id:85 from hm7 and id:95 from hm13
+hm7 puts hotdog id:98
+bm12 puts burger id:41
+hc14 gets hotdogs id:93 from hm3 and id:97 from hm18
+hm11 puts hotdog id:102
+hm3 puts hotdog id:100
+hc3 gets hotdogs id:94 from hm11 and id:79 from hm8
+hm11 puts hotdog id:105
+hm3 puts hotdog id:106
+bc2 gets burger id:41 from bm12
+hm6 puts hotdog id:96
+hc1 gets hotdogs id:98 from hm7 and id:102 from hm11
+hm18 puts hotdog id:101
+hc15 gets hotdogs id:100 from hm3 and id:105 from hm11
+bm12 puts burger id:43
+hm7 puts hotdog id:104
+hc2 gets hotdogs id:106 from hm3 and id:96 from hm6
+bm5 puts burger id:42
+hm6 puts hotdog id:109
+bc7 gets burger id:43 from bm12
+hm18 puts hotdog id:110
+hm6 puts hotdog id:112
+hc15 gets hotdogs id:101 from hm18 and id:104 from hm7
+hm7 puts hotdog id:111
+bc16 gets burger id:42 from bm5
+hm6 puts hotdog id:114
+hc14 gets hotdogs id:109 from hm6 and id:110 from hm18
+bm12 puts burger id:44
+hm8 puts hotdog id:103
+hm18 puts hotdog id:113
+hc12 gets hotdogs id:112 from hm6 and id:111 from hm7
+hm6 puts hotdog id:116
+bc16 gets burger id:44 from bm12
+hm7 puts hotdog id:115
+bm5 puts burger id:45
+hc9 gets hotdogs id:114 from hm6 and id:103 from hm8
+hm13 puts hotdog id:99
+bm12 puts burger id:46
+hc13 gets hotdogs id:113 from hm18 and id:116 from hm6
+hm18 puts hotdog id:118
+hm8 puts hotdog id:117
+bc16 gets burger id:45 from bm5
+hm6 puts hotdog id:119
+hc8 gets hotdogs id:115 from hm7 and id:99 from hm13
+bc16 gets burger id:46 from bm12
+hm7 puts hotdog id:120
+hm11 puts hotdog id:107
+bm5 puts burger id:47
+hc4 gets hotdogs id:118 from hm18 and id:117 from hm8
+bm12 puts burger id:48
+hc7 gets hotdogs id:119 from hm6 and id:120 from hm7
+hm7 puts hotdog id:125
+hm8 puts hotdog id:123
+bc16 gets burger id:47 from bm5
+bc3 gets burger id:48 from bm12
+hm8 puts hotdog id:128
+hm19 puts hotdog id:59
+hm5 puts hotdog id:44
+hc6 gets hotdogs id:107 from hm11 and id:125 from hm7
+hm11 puts hotdog id:126
+bm5 puts burger id:49
+hc18 gets hotdogs id:123 from hm8 and id:128 from hm8
+hm19 puts hotdog id:130
+hm8 puts hotdog id:129
+hc5 gets hotdogs id:59 from hm19 and id:44 from hm5
+hm5 puts hotdog id:131
+hm11 puts hotdog id:132
+bc16 gets burger id:49 from bm5
+hm5 puts hotdog id:135
+hc10 gets hotdogs id:126 from hm11 and id:130 from hm19
+hm13 puts hotdog id:121
+hm11 puts hotdog id:136
+hc17 gets hotdogs id:129 from hm8 and id:131 from hm5
+hm5 puts hotdog id:137
+hc16 gets hotdogs id:132 from hm11 and id:135 from hm5
+hm6 puts hotdog id:124
+hm3 puts hotdog id:108
+hc11 gets hotdogs id:121 from hm13 and id:136 from hm11
+hc19 gets hotdogs id:137 from hm5 and id:124 from hm6
+hm18 puts hotdog id:122
+hm8 puts hotdog id:134
+hm11 puts hotdog id:139
+hc0 gets hotdogs id:108 from hm3 and id:122 from hm18
+hc11 gets hotdogs id:134 from hm8 and id:139 from hm11
+hm3 puts hotdog id:142
+hm6 puts hotdog id:141
+hm5 puts hotdog id:140
+hm13 puts hotdog id:138
+bm5 puts burger id:51
+hm11 puts hotdog id:145
+hc16 gets hotdogs id:142 from hm3 and id:141 from hm6
+hm3 puts hotdog id:146
+hm13 puts hotdog id:149
+hc17 gets hotdogs id:140 from hm5 and id:138 from hm13
+bc9 gets burger id:51 from bm5
+hm5 puts hotdog id:148
+hm7 puts hotdog id:127
+hm8 puts hotdog id:144
+hc10 gets hotdogs id:145 from hm11 and id:146 from hm3
+bm5 puts burger id:52
+hm5 puts hotdog id:153
+hc18 gets hotdogs id:149 from hm13 and id:148 from hm5
+bm12 puts burger id:50
+hc6 gets hotdogs id:127 from hm7 and id:144 from hm8
+hm7 puts hotdog id:154
+bc0 gets burger id:52 from bm5
+hm18 puts hotdog id:143
+hm3 puts hotdog id:151
+bc9 gets burger id:50 from bm12
+hm8 puts hotdog id:155
+hm13 puts hotdog id:152
+hc7 gets hotdogs id:153 from hm5 and id:154 from hm7
+hm18 puts hotdog id:158
+hm3 puts hotdog id:159
+hc4 gets hotdogs id:143 from hm18 and id:151 from hm3
+hm7 puts hotdog id:157
+bm5 puts burger id:53
+hc8 gets hotdogs id:155 from hm8 and id:152 from hm13
+hc13 gets hotdogs id:158 from hm18 and id:159 from hm3
+hm11 puts hotdog id:150
+hm6 puts hotdog id:147
+hm2 puts hotdog id:86
+bc3 gets burger id:53 from bm5
+hm7 puts hotdog id:164
+hm3 puts hotdog id:163
+hc9 gets hotdogs id:157 from hm7 and id:150 from hm11
+hc12 gets hotdogs id:147 from hm6 and id:86 from hm2
+hc14 gets hotdogs id:164 from hm7 and id:163 from hm3
+hm18 puts hotdog id:162
+hm5 puts hotdog id:156
+hm19 puts hotdog id:133
+hm0 puts hotdog id:46
+bm13 puts burger id:25
+hc15 gets hotdogs id:162 from hm18 and id:156 from hm5
+hm3 puts hotdog id:169
+hm7 puts hotdog id:168
+bm5 puts burger id:55
+hc3 gets hotdogs id:133 from hm19 and id:46 from hm0
+bc5 gets burger id:25 from bm13
+hm0 puts hotdog id:173
+hm18 puts hotdog id:170
+hm7 puts hotdog id:175
+hc1 gets hotdogs id:169 from hm3 and id:168 from hm7
+bc1 gets burger id:55 from bm5
+hm19 puts hotdog id:172
+bm9 puts burger id:36
+hc2 gets hotdogs id:173 from hm0 and id:170 from hm18
+hm0 puts hotdog id:176
+hm3 puts hotdog id:174
+hm19 puts hotdog id:179
+hc1 gets hotdogs id:175 from hm7 and id:172 from hm19
+hm18 puts hotdog id:177
+bc8 gets burger id:36 from bm9
+hm13 puts hotdog id:161
+bm9 puts burger id:58
+hc3 gets hotdogs id:176 from hm0 and id:174 from hm3
+hm19 puts hotdog id:182
+hc15 gets hotdogs id:179 from hm19 and id:177 from hm18
+hm3 puts hotdog id:181
+bm5 puts burger id:57
+bc8 gets burger id:58 from bm9
+hm18 puts hotdog id:183
+bm12 puts burger id:54
+hc14 gets hotdogs id:161 from hm13 and id:182 from hm19
+hm3 puts hotdog id:186
+bc8 gets burger id:57 from bm5
+bm13 puts burger id:56
+hm6 puts hotdog id:166
+hc12 gets hotdogs id:181 from hm3 and id:183 from hm18
+bm5 puts burger id:60
+bc6 gets burger id:54 from bm12
+hm5 puts hotdog id:171
+hm3 puts hotdog id:188
+bc2 gets burger id:56 from bm13
+hm8 puts hotdog id:160
+hc9 gets hotdogs id:186 from hm3 and id:166 from hm6
+bm12 puts burger id:61
+bc15 gets burger id:60 from bm5
+hm8 puts hotdog id:192
+hc13 gets hotdogs id:171 from hm5 and id:188 from hm3
+bm13 puts burger id:62
+hm5 puts hotdog id:190
+hm3 puts hotdog id:191
+bc6 gets burger id:61 from bm12
+hm5 puts hotdog id:194
+hc8 gets hotdogs id:160 from hm8 and id:192 from hm8
+bc2 gets burger id:62 from bm13
+hm8 puts hotdog id:193
+hm2 puts hotdog id:167
+bm12 puts burger id:64
+hc4 gets hotdogs id:190 from hm5 and id:191 from hm3
+bm13 puts burger id:65
+hm8 puts hotdog id:197
+hc7 gets hotdogs id:194 from hm5 and id:193 from hm8
+bc16 gets burger id:64 from bm12
+bc13 gets burger id:65 from bm13
+hm5 puts hotdog id:196
+bm12 puts burger id:66
+hm8 puts hotdog id:199
+hc6 gets hotdogs id:167 from hm2 and id:197 from hm8
+bc2 gets burger id:66 from bm12
+hm2 puts hotdog id:198
+bm5 puts burger id:63
+hm6 puts hotdog id:189
+hm18 puts hotdog id:187
+hc18 gets hotdogs id:196 from hm5 and id:199 from hm8
+hm5 puts hotdog id:200
+bc13 gets burger id:63 from bm5
+bm13 puts burger id:67
+hm18 puts hotdog id:204
+hc10 gets hotdogs id:198 from hm2 and id:189 from hm6
+hc5 gets hotdogs id:187 from hm18 and id:200 from hm5
+hm6 puts hotdog id:203
+hm8 puts hotdog id:201
+bc2 gets burger id:67 from bm13
+bm12 puts burger id:68
+hm2 puts hotdog id:202
+hc17 gets hotdogs id:204 from hm18 and id:203 from hm6
+hm18 puts hotdog id:206
+hm2 puts hotdog id:209
+bc10 gets burger id:68 from bm12
+bm13 puts burger id:70
+hm2 puts hotdog id:211
+hc16 gets hotdogs id:201 from hm8 and id:202 from hm2
+hm18 puts hotdog id:210
+hm2 puts hotdog id:212
+hc11 gets hotdogs id:206 from hm18 and id:209 from hm2
+hm18 puts hotdog id:213
+bc13 gets burger id:70 from bm13
+hm2 puts hotdog id:214
+Hotdogs: 10000
+Burgers: 10000
+Capacity: 5
+Hotdog Makers: 20
+Burger Makers: 20
+Hotdog Packers: 20
+Burger Packers: 20
+Hotdogs: 100
+Burgers: 100
+Capacity: 20
+Hotdog Makers: 20
+Burger Makers: 20
+Hotdog Packers: 20
+Burger Packers: 20
+hm18 puts hotdog id:18
+hm15 puts hotdog id:15
+hm14 puts hotdog id:14
+hm2 puts hotdog id:9
+hm10 puts hotdog id:11
+hm12 puts hotdog id:12
+hm6 puts hotdog id:2
+hm0 puts hotdog id:0
+hm3 puts hotdog id:3
+hm19 puts hotdog id:19
+hm17 puts hotdog id:17
+hm11 puts hotdog id:5
+hm7 puts hotdog id:7
+hm16 puts hotdog id:16
+hm1 puts hotdog id:1
+hm4 puts hotdog id:4
+hm5 puts hotdog id:8
+hm8 puts hotdog id:6
+hm13 puts hotdog id:13
+hm9 puts hotdog id:10
+hm5 puts hotdog id:36
+hc3 gets hotdogs id:18 from hm18 and id:15 from hm15
+hc15 gets hotdogs id:14 from hm14 and id:9 from hm2
+hc11 gets hotdogs id:11 from hm10 and id:12 from hm12
+hm9 puts hotdog id:39
+hm18 puts hotdog id:20
+bm0 puts burger id:0
+bm1 puts burger id:1
+bm4 puts burger id:3
+hc18 gets hotdogs id:2 from hm6 and id:0 from hm0
+hc19 gets hotdogs id:3 from hm3 and id:19 from hm19
+hc4 gets hotdogs id:17 from hm17 and id:5 from hm11
+hm5 puts hotdog id:40
+bm1 puts burger id:21
+bm0 puts burger id:20
+hm9 puts hotdog id:41
+hm18 puts hotdog id:42
+hm8 puts hotdog id:37
+hm13 puts hotdog id:38
+hc0 gets hotdogs id:7 from hm7 and id:16 from hm16
+bm4 puts burger id:22
+hm5 puts hotdog id:43
+hc5 gets hotdogs id:1 from hm1 and id:4 from hm4
+bm1 puts burger id:23
+bm0 puts burger id:24
+hc8 gets hotdogs id:8 from hm5 and id:6 from hm8
+hm13 puts hotdog id:47
+hc9 gets hotdogs id:13 from hm13 and id:10 from hm9
+hc12 gets hotdogs id:36 from hm5 and id:39 from hm9
+bc9 gets burger id:0 from bm0
+bc16 gets burger id:1 from bm1
+bc13 gets burger id:3 from bm4
+hm9 puts hotdog id:44
+bm13 puts burger id:13
+bm5 puts burger id:4
+bm17 puts burger id:17
+hm9 puts hotdog id:50
+bm7 puts burger id:7
+bm10 puts burger id:10
+bm18 puts burger id:18
+hc13 gets hotdogs id:20 from hm18 and id:40 from hm5
+bc12 gets burger id:21 from bm1
+bc8 gets burger id:20 from bm0
+bm1 puts burger id:26
+hm13 puts hotdog id:49
+bm4 puts burger id:25
+bm0 puts burger id:27
+hc16 gets hotdogs id:41 from hm9 and id:42 from hm18
+bm13 puts burger id:28
+bm18 puts burger id:33
+hc17 gets hotdogs id:37 from hm8 and id:38 from hm13
+bm10 puts burger id:32
+bc18 gets burger id:22 from bm4
+bm7 puts burger id:31
+bm1 puts burger id:34
+bc9 gets burger id:23 from bm1
+bc17 gets burger id:24 from bm0
+hm9 puts hotdog id:51
+hm18 puts hotdog id:45
+hc2 gets hotdogs id:43 from hm5 and id:47 from hm13
+bm4 puts burger id:35
+bm13 puts burger id:37
+bc9 gets burger id:13 from bm13
+bc3 gets burger id:4 from bm5
+bc15 gets burger id:17 from bm17
+bm10 puts burger id:39
+hm13 puts hotdog id:52
+bm12 puts burger id:12
+hc6 gets hotdogs id:44 from hm9 and id:50 from hm9
+bm7 puts burger id:40
+bc18 gets burger id:7 from bm7
+bc19 gets burger id:10 from bm10
+bc0 gets burger id:18 from bm18
+bc12 gets burger id:26 from bm1
+bm17 puts burger id:30
+bm5 puts burger id:29
+bm0 puts burger id:36
+hm8 puts hotdog id:46
+bm1 puts burger id:41
+bc9 gets burger id:25 from bm4
+bc14 gets burger id:27 from bm0
+bc10 gets burger id:28 from bm13
+bc11 gets burger id:33 from bm18
+bc14 gets burger id:32 from bm10
+bc7 gets burger id:31 from bm7
+bc11 gets burger id:34 from bm1
+bm4 puts burger id:42
+hm4 puts hotdog id:35
+hm1 puts hotdog id:34
+hm16 puts hotdog id:33
+hm7 puts hotdog id:32
+hm11 puts hotdog id:31
+hm17 puts hotdog id:30
+hc7 gets hotdogs id:49 from hm13 and id:51 from hm9
+bm13 puts burger id:43
+hm8 puts hotdog id:56
+bc9 gets burger id:35 from bm4
+bm5 puts burger id:48
+bc10 gets burger id:37 from bm13
+bc14 gets burger id:39 from bm10
+bm1 puts burger id:50
+hm4 puts hotdog id:57
+hc10 gets hotdogs id:45 from hm18 and id:52 from hm13
+bm4 puts burger id:51
+bc8 gets burger id:12 from bm12
+bc12 gets burger id:40 from bm7
+bm12 puts burger id:45
+bc8 gets burger id:30 from bm17
+bc12 gets burger id:29 from bm5
+bc1 gets burger id:36 from bm0
+bm10 puts burger id:44
+hm9 puts hotdog id:53
+hm13 puts hotdog id:55
+bm4 puts burger id:55
+hm17 puts hotdog id:62
+bc9 gets burger id:41 from bm1
+hm8 puts hotdog id:63
+bc10 gets burger id:42 from bm4
+hm7 puts hotdog id:60
+hc14 gets hotdogs id:46 from hm8 and id:35 from hm4
+hm4 puts hotdog id:64
+hm13 puts hotdog id:66
+hc10 gets hotdogs id:34 from hm1 and id:33 from hm16
+bm4 puts burger id:58
+hm8 puts hotdog id:68
+hc7 gets hotdogs id:32 from hm7 and id:31 from hm11
+hm7 puts hotdog id:69
+hm4 puts hotdog id:70
+bc9 gets burger id:43 from bm13
+hm17 puts hotdog id:67
+hc6 gets hotdogs id:30 from hm17 and id:56 from hm8
+bc9 gets burger id:48 from bm5
+hm13 puts hotdog id:71
+bc10 gets burger id:50 from bm1
+bm12 puts burger id:56
+hm9 puts hotdog id:65
+hm7 puts hotdog id:73
+bc14 gets burger id:51 from bm4
+bc17 gets burger id:45 from bm12
+bc15 gets burger id:44 from bm10
+bm13 puts burger id:52
+bm0 puts burger id:49
+hm4 puts hotdog id:74
+hc2 gets hotdogs id:57 from hm4 and id:53 from hm9
+hm17 puts hotdog id:75
+hm9 puts hotdog id:77
+bc17 gets burger id:55 from bm4
+bm12 puts burger id:60
+hc17 gets hotdogs id:55 from hm13 and id:62 from hm17
+hc16 gets hotdogs id:63 from hm8 and id:60 from hm7
+bm1 puts burger id:54
+bm5 puts burger id:53
+bm7 puts burger id:46
+hm18 puts hotdog id:54
+hc13 gets hotdogs id:64 from hm4 and id:66 from hm13
+bc0 gets burger id:58 from bm4
+hm17 puts hotdog id:80
+bm18 puts burger id:38
+hc17 gets hotdogs id:68 from hm8 and id:69 from hm7
+hc2 gets hotdogs id:70 from hm4 and id:67 from hm17
+bm12 puts burger id:63
+hm4 puts hotdog id:79
+hm13 puts hotdog id:76
+hm8 puts hotdog id:72
+bc8 gets burger id:56 from bm12
+bm7 puts burger id:66
+hm17 puts hotdog id:83
+hc6 gets hotdogs id:71 from hm13 and id:65 from hm9
+hm4 puts hotdog id:84
+hm13 puts hotdog id:85
+bc4 gets burger id:52 from bm13
+bc5 gets burger id:49 from bm0
+bm1 puts burger id:64
+bm17 puts burger id:47
+hc7 gets hotdogs id:73 from hm7 and id:74 from hm4
+hm11 puts hotdog id:61
+hm4 puts hotdog id:88
+hc10 gets hotdogs id:75 from hm17 and id:77 from hm9
+hm17 puts hotdog id:87
+bc1 gets burger id:60 from bm12
+bc9 gets burger id:54 from bm1
+bc18 gets burger id:53 from bm5
+bc1 gets burger id:46 from bm7
+bm18 puts burger id:67
+hm5 puts hotdog id:48
+hm17 puts hotdog id:92
+bm17 puts burger id:71
+bm10 puts burger id:57
+hc14 gets hotdogs id:54 from hm18 and id:80 from hm17
+bm1 puts burger id:70
+bc18 gets burger id:38 from bm18
+bc9 gets burger id:63 from bm12
+hm5 puts hotdog id:93
+hm4 puts hotdog id:91
+hm17 puts hotdog id:94
+hc10 gets hotdogs id:79 from hm4 and id:76 from hm13
+bm18 puts burger id:72
+bm10 puts burger id:74
+bc14 gets burger id:66 from bm7
+hm9 puts hotdog id:81
+hc7 gets hotdogs id:72 from hm8 and id:83 from hm17
+bm1 puts burger id:75
+hm5 puts hotdog id:95
+hc6 gets hotdogs id:84 from hm4 and id:85 from hm13
+hm17 puts hotdog id:97
+bc9 gets burger id:64 from bm1
+bc18 gets burger id:47 from bm17
+bm17 puts burger id:73
+hm9 puts hotdog id:98
+bm18 puts burger id:76
+hc2 gets hotdogs id:61 from hm11 and id:88 from hm4
+bm10 puts burger id:77
+bm4 puts burger id:59
+bc11 gets burger id:67 from bm18
+hm4 puts hotdog id:96
+hc17 gets hotdogs id:87 from hm17 and id:48 from hm5
+bc10 gets burger id:71 from bm17
+bc18 gets burger id:57 from bm10
+bm1 puts burger id:78
+hm5 puts hotdog id:99
+bm4 puts burger id:82
+bc10 gets burger id:70 from bm1
+bm10 puts burger id:81
+hc13 gets hotdogs id:92 from hm17 and id:93 from hm5
+bm18 puts burger id:80
+bm17 puts burger id:79
+hm19 puts hotdog id:29
+hc3 gets hotdogs id:91 from hm4 and id:94 from hm17
+bc9 gets burger id:72 from bm18
+bc12 gets burger id:74 from bm10
+bm10 puts burger id:85
+bm1 puts burger id:83
+bc11 gets burger id:75 from bm1
+hm11 puts hotdog id:90
+hm8 puts hotdog id:86
+bm7 puts burger id:69
+hc15 gets hotdogs id:81 from hm9 and id:95 from hm5
+bc10 gets burger id:73 from bm17
+hc11 gets hotdogs id:97 from hm17 and id:98 from hm9
+bc18 gets burger id:76 from bm18
+bm10 puts burger id:88
+bc12 gets burger id:77 from bm10
+bm18 puts burger id:86
+bm17 puts burger id:87
+bc12 gets burger id:59 from bm4
+bm4 puts burger id:84
+hm3 puts hotdog id:28
+hm0 puts hotdog id:27
+hm6 puts hotdog id:26
+bc9 gets burger id:78 from bm1
+bm1 puts burger id:89
+bm17 puts burger id:93
+hc18 gets hotdogs id:96 from hm4 and id:99 from hm5
+bc10 gets burger id:82 from bm4
+bc18 gets burger id:81 from bm10
+bm7 puts burger id:90
+bc11 gets burger id:80 from bm18
+bc18 gets burger id:79 from bm17
+bm10 puts burger id:91
+hm13 puts hotdog id:89
+bm12 puts burger id:68
+bm5 puts burger id:65
+bm18 puts burger id:92
+bc9 gets burger id:85 from bm10
+bm4 puts burger id:94
+bc1 gets burger id:83 from bm1
+bm10 puts burger id:98
+hc19 gets hotdogs id:29 from hm19 and id:90 from hm11
+bm1 puts burger id:95
+bm7 puts burger id:97
+bc9 gets burger id:69 from bm7
+bm12 puts burger id:99
+bc1 gets burger id:88 from bm10
+bc9 gets burger id:86 from bm18
+bc10 gets burger id:87 from bm17
+bc1 gets burger id:84 from bm4
+hm18 puts hotdog id:82
+bm0 puts burger id:62
+bm13 puts burger id:61
+hm7 puts hotdog id:78
+hc4 gets hotdogs id:86 from hm8 and id:28 from hm3
+hm1 puts hotdog id:58
+hc1 gets hotdogs id:27 from hm0 and id:26 from hm6
+bc10 gets burger id:89 from bm1
+bc19 gets burger id:93 from bm17
+bc1 gets burger id:90 from bm7
+bc14 gets burger id:91 from bm10
+bm17 puts burger id:96
+hm12 puts hotdog id:25
+hm10 puts hotdog id:24
+hm2 puts hotdog id:23
+hm14 puts hotdog id:22
+hm15 puts hotdog id:21
+bc9 gets burger id:68 from bm12
+bc10 gets burger id:65 from bm5
+bc19 gets burger id:92 from bm18
+bc9 gets burger id:94 from bm4
+bc10 gets burger id:98 from bm10
+bc17 gets burger id:95 from bm1
+bc15 gets burger id:97 from bm7
+bc7 gets burger id:99 from bm12
+hm16 puts hotdog id:59
+bm9 puts burger id:9
+bm14 puts burger id:14
+bm8 puts burger id:8
+bm19 puts burger id:19
+bm16 puts burger id:16
+bm15 puts burger id:15
+bm11 puts burger id:11
+bm2 puts burger id:2
+hc0 gets hotdogs id:89 from hm13 and id:82 from hm18
+bm6 puts burger id:6
+bc19 gets burger id:62 from bm0
+bc9 gets burger id:61 from bm13
+bm3 puts burger id:5
+hc5 gets hotdogs id:78 from hm7 and id:58 from hm1
+bc9 gets burger id:96 from bm17
+hc8 gets hotdogs id:25 from hm12 and id:24 from hm10
+hc9 gets hotdogs id:23 from hm2 and id:22 from hm14
+hc12 gets hotdogs id:21 from hm15 and id:59 from hm16
+bc12 gets burger id:9 from bm9
+bc1 gets burger id:14 from bm14
+bc18 gets burger id:8 from bm8
+bc4 gets burger id:19 from bm19
+bc1 gets burger id:16 from bm16
+bc18 gets burger id:15 from bm15
+bc4 gets burger id:11 from bm11
+bc0 gets burger id:2 from bm2
+bc5 gets burger id:6 from bm6
+bc4 gets burger id:5 from bm3
+Summary:
+hm0 makes 2
+hm1 makes 3
+hm2 makes 2
+hm3 makes 2
+hm4 makes 11
+hm5 makes 8
+hm6 makes 2
+hm7 makes 6
+hm8 makes 8
+hm9 makes 11
+hm10 makes 2
+hm11 makes 4
+hm12 makes 2
+hm13 makes 11
+hm14 makes 2
+hm15 makes 2
+hm16 makes 3
+hm17 makes 11
+hm18 makes 6
+hm19 makes 2
+bm0 makes 7
+bm1 makes 15
+bm2 makes 1
+bm3 makes 1
+bm4 makes 12
+bm5 makes 5
+bm6 makes 1
+bm7 makes 8
+bm8 makes 1
+bm9 makes 1
+bm10 makes 12
+bm11 makes 1
+bm12 makes 7
+bm13 makes 6
+bm14 makes 1
+bm15 makes 1
+bm16 makes 1
+bm17 makes 9
+bm18 makes 9
+bm19 makes 1
+hc0 packs 4
+hc1 packs 2
+hc2 packs 8
+hc3 packs 4
+hc4 packs 4
+hc5 packs 4
+hc6 packs 8
+hc7 packs 8
+hc8 packs 4
+hc9 packs 4
+hc10 packs 8
+hc11 packs 4
+hc12 packs 4
+hc13 packs 6
+hc14 packs 4
+hc15 packs 4
+hc16 packs 4
+hc17 packs 8
+hc18 packs 4
+hc19 packs 4
+bc0 packs 3
+bc1 packs 9
+bc2 packs 0
+bc3 packs 1
+bc4 packs 4
+bc5 packs 2
+bc6 packs 0
+bc7 packs 2
+bc8 packs 4
+bc9 packs 20
+bc10 packs 12
+bc11 packs 5
+bc12 packs 8
+bc13 packs 1
+bc14 packs 6
+bc15 packs 3
+bc16 packs 1
+bc17 packs 4
+bc18 packs 11
+bc19 packs 4
+Hotdogs: 100
+Burgers: 100
+Capacity: 20
+Hotdog Makers: 20
+Burger Makers: 20
+Hotdog Packers: 20
+Burger Packers: 20
+hm15 puts hotdog id:15
+hm13 puts hotdog id:9
+hm5 puts hotdog id:18
+hm3 puts hotdog id:3
+hm8 puts hotdog id:12
+hm0 puts hotdog id:2
+hm2 puts hotdog id:1
+hm16 puts hotdog id:13
+hm1 puts hotdog id:0
+hm11 puts hotdog id:6
+hm6 puts hotdog id:4
+hm14 puts hotdog id:10
+hm12 puts hotdog id:8
+hm19 puts hotdog id:17
+hm10 puts hotdog id:7
+hm18 puts hotdog id:11
+hm7 puts hotdog id:16
+hm9 puts hotdog id:5
+hm17 puts hotdog id:14
+hm4 puts hotdog id:19
+hm7 puts hotdog id:36
+hc7 gets hotdogs id:15 from hm15 and id:9 from hm13
+hc16 gets hotdogs id:18 from hm5 and id:3 from hm3
+hc8 gets hotdogs id:12 from hm8 and id:2 from hm0
+hc9 gets hotdogs id:1 from hm2 and id:13 from hm16
+hm15 puts hotdog id:20
+bm3 puts burger id:3
+bm7 puts burger id:7
+bm6 puts burger id:6
+bm17 puts burger id:17
+bm2 puts burger id:2
+bm10 puts burger id:10
+bm11 puts burger id:11
+Hotdogs: 100
+Burgers: 100
+Capacity: 20
+Hotdog Makers: 20
+Burger Makers: 20
+Hotdog Packers: 20
+Burger Packers: 20
+hm13 puts hotdog id:13
+hm4 puts hotdog id:4
+hm16 puts hotdog id:16
+hm13 puts hotdog id:20
+hm3 puts hotdog id:3
+hm2 puts hotdog id:2
+hm17 puts hotdog id:17
+hm10 puts hotdog id:9
+hm0 puts hotdog id:0
+hm6 puts hotdog id:12
+hm1 puts hotdog id:1
+hm14 puts hotdog id:14
+hm15 puts hotdog id:15
+hm6 puts hotdog id:29
+hm1 puts hotdog id:30
+hm14 puts hotdog id:31
+hm18 puts hotdog id:19
+hm7 puts hotdog id:5
+hm9 puts hotdog id:6
+hm19 puts hotdog id:18
+hm11 puts hotdog id:10
+hc9 gets hotdogs id:13 from hm13 and id:4 from hm4
+hc8 gets hotdogs id:16 from hm16 and id:20 from hm13
+hm11 puts hotdog id:40
+hm19 puts hotdog id:39
+bm2 puts burger id:4
+bm16 puts burger id:16
+hc19 gets hotdogs id:3 from hm3 and id:2 from hm2
+hc17 gets hotdogs id:17 from hm17 and id:9 from hm10
+hc18 gets hotdogs id:0 from hm0 and id:12 from hm6
+hc16 gets hotdogs id:1 from hm1 and id:14 from hm14
+hm11 puts hotdog id:41
+hm9 puts hotdog id:38
+hm12 puts hotdog id:8
+hm8 puts hotdog id:11
+hm5 puts hotdog id:7
+hm7 puts hotdog id:37
+hm18 puts hotdog id:36
+hc13 gets hotdogs id:15 from hm15 and id:29 from hm6
+bm2 puts burger id:20
+hc15 gets hotdogs id:30 from hm1 and id:31 from hm14
+hm18 puts hotdog id:49
+hm7 puts hotdog id:48
+bm16 puts burger id:21
+hc16 gets hotdogs id:19 from hm18 and id:5 from hm7
+hc18 gets hotdogs id:6 from hm9 and id:18 from hm19
+hc17 gets hotdogs id:10 from hm11 and id:40 from hm11
+bm2 puts burger id:22
+hm7 puts hotdog id:51
+hm5 puts hotdog id:47
+hm14 puts hotdog id:35
+hm1 puts hotdog id:34
+hm6 puts hotdog id:33
+bc2 gets burger id:4 from bm2
+bc6 gets burger id:16 from bm16
+hm6 puts hotdog id:56
+bm2 puts burger id:24
+hm1 puts hotdog id:55
+hc19 gets hotdogs id:39 from hm19 and id:41 from hm11
+bm16 puts burger id:23
+hm6 puts hotdog id:57
+hc8 gets hotdogs id:38 from hm9 and id:8 from hm12
+hm14 puts hotdog id:54
+hc9 gets hotdogs id:11 from hm8 and id:7 from hm5
+hc8 gets hotdogs id:37 from hm7 and id:36 from hm18
+bc9 gets burger id:20 from bm2
+bm16 puts burger id:26
+hm14 puts hotdog id:60
+hm1 puts hotdog id:58
+hm7 puts hotdog id:52
+hm5 puts hotdog id:53
+hm18 puts hotdog id:50
+hc19 gets hotdogs id:49 from hm18 and id:48 from hm7
+bc6 gets burger id:21 from bm16
+bc2 gets burger id:22 from bm2
+hm18 puts hotdog id:65
+bm16 puts burger id:27
+hm5 puts hotdog id:64
+hc17 gets hotdogs id:51 from hm7 and id:47 from hm5
+hc18 gets hotdogs id:35 from hm14 and id:34 from hm1
+hm14 puts hotdog id:61
+hm1 puts hotdog id:62
+bm2 puts burger id:25
+hm6 puts hotdog id:59
+hc16 gets hotdogs id:33 from hm6 and id:56 from hm6
+hm5 puts hotdog id:67
+Hotdogs: 10
+Burgers: 10
+Capacity: 5
+Hotdog Makers: 2
+Burger Makers: 2
+Hotdog Packers: 2
+Burger Packers: 2
+hm1 puts hotdog id:1
+hm0 puts hotdog id:0
+hc1 gets hotdogs id:1 from hm1 and id:0 from hm0
+hm1 puts hotdog id:2
+bm0 puts burger id:0
+bm1 puts burger id:1
+hm1 puts hotdog id:4
+bc1 gets burger id:0 from bm0
+bc0 gets burger id:1 from bm1
+hm0 puts hotdog id:3
+hm1 puts hotdog id:5
+hc0 gets hotdogs id:2 from hm1 and id:4 from hm1
+bm0 puts burger id:2
+hm0 puts hotdog id:6
+bm1 puts burger id:3
+hc1 gets hotdogs id:3 from hm0 and id:5 from hm1
+bc0 gets burger id:2 from bm0
+hm1 puts hotdog id:7
+bc1 gets burger id:3 from bm1
+hm0 puts hotdog id:8
+hm1 puts hotdog id:9
+bm0 puts burger id:4
+hc0 gets hotdogs id:6 from hm0 and id:7 from hm1
+bm1 puts burger id:5
+hc1 gets hotdogs id:8 from hm0 and id:9 from hm1
+bc0 gets burger id:4 from bm0
+bc1 gets burger id:5 from bm1
+bm0 puts burger id:6
+bc0 gets burger id:6 from bm0
+bm1 puts burger id:7
+bc1 gets burger id:7 from bm1
+bm0 puts burger id:8
+bc0 gets burger id:8 from bm0
+bm1 puts burger id:9
+bc1 gets burger id:9 from bm1
+Summary:
+hm0 makes 4
+hm1 makes 6
+bm0 makes 5
+bm1 makes 5
+hc0 packs 4
+hc1 packs 6
+bc0 packs 5
+bc1 packs 5
+Hotdogs: 30
+Burgers: 30
+Capacity: 5
+Hotdog Makers: 2
+Burger Makers: 2
+Hotdog Packers: 2
+Burger Packers: 2
+hm0 puts hotdog id:0
+hm1 puts hotdog id:1
+hc0 gets hotdogs id:0 from hm0 and id:1 from hm1
+hm0 puts hotdog id:2
+bm1 puts burger id:1
+bm0 puts burger id:0
+hm0 puts hotdog id:4
+bc0 gets burger id:1 from bm1
+bc1 gets burger id:0 from bm0
+hm1 puts hotdog id:3
+hm0 puts hotdog id:5
+hc1 gets hotdogs id:2 from hm0 and id:4 from hm0
+hc0 gets hotdogs id:3 from hm1 and id:5 from hm0
+hm1 puts hotdog id:6
+bm1 puts burger id:2
+hm0 puts hotdog id:7
+bc1 gets burger id:2 from bm1
+bm0 puts burger id:3
+hm0 puts hotdog id:9
+hc1 gets hotdogs id:6 from hm1 and id:7 from hm0
+hm1 puts hotdog id:8
+bc0 gets burger id:3 from bm0
+hm0 puts hotdog id:10
+bm1 puts burger id:4
+hc0 gets hotdogs id:9 from hm0 and id:8 from hm1
+hm0 puts hotdog id:12
+bm0 puts burger id:5
+hm1 puts hotdog id:11
+bc0 gets burger id:4 from bm1
+hc1 gets hotdogs id:10 from hm0 and id:12 from hm0
+bc1 gets burger id:5 from bm0
+hm0 puts hotdog id:13
+hm1 puts hotdog id:14
+bm1 puts burger id:6
+hm0 puts hotdog id:15
+bm0 puts burger id:7
+hc0 gets hotdogs id:11 from hm1 and id:13 from hm0
+hm1 puts hotdog id:16
+bc1 gets burger id:6 from bm1
+hm0 puts hotdog id:17
+hc1 gets hotdogs id:14 from hm1 and id:15 from hm0
+bc1 gets burger id:7 from bm0
+hm1 puts hotdog id:18
+bm1 puts burger id:8
+hc0 gets hotdogs id:16 from hm1 and id:17 from hm0
+hm0 puts hotdog id:19
+bm0 puts burger id:9
+hm1 puts hotdog id:20
+bc1 gets burger id:8 from bm1
+hc1 gets hotdogs id:18 from hm1 and id:19 from hm0
+hm1 puts hotdog id:22
+bc0 gets burger id:9 from bm0
+hm0 puts hotdog id:21
+bm1 puts burger id:10
+hc0 gets hotdogs id:20 from hm1 and id:22 from hm1
+hm1 puts hotdog id:23
+bm0 puts burger id:11
+hm0 puts hotdog id:24
+hm1 puts hotdog id:25
+bc1 gets burger id:10 from bm1
+hc1 gets hotdogs id:21 from hm0 and id:23 from hm1
+bm1 puts burger id:12
+bc1 gets burger id:11 from bm0
+hm1 puts hotdog id:27
+hc0 gets hotdogs id:24 from hm0 and id:25 from hm1
+bc0 gets burger id:12 from bm1
+hm0 puts hotdog id:26
+hm1 puts hotdog id:28
+bm0 puts burger id:13
+hm0 puts hotdog id:29
+hc1 gets hotdogs id:27 from hm1 and id:26 from hm0
+bm1 puts burger id:14
+bc0 gets burger id:13 from bm0
+hc0 gets hotdogs id:28 from hm1 and id:29 from hm0
+bc1 gets burger id:14 from bm1
+bm0 puts burger id:15
+bc0 gets burger id:15 from bm0
+bm1 puts burger id:16
+bc1 gets burger id:16 from bm1
+bm0 puts burger id:17
+bc1 gets burger id:17 from bm0
+bm1 puts burger id:18
+bc0 gets burger id:18 from bm1
+bm0 puts burger id:19
+bc1 gets burger id:19 from bm0
+bm1 puts burger id:20
+bc0 gets burger id:20 from bm1
+bm0 puts burger id:21
+bc0 gets burger id:21 from bm0
+bm1 puts burger id:22
+bc1 gets burger id:22 from bm1
+bm0 puts burger id:23
+bc0 gets burger id:23 from bm0
+bm1 puts burger id:24
+bc1 gets burger id:24 from bm1
+bm0 puts burger id:25
+bc1 gets burger id:25 from bm0
+bm1 puts burger id:26
+bc0 gets burger id:26 from bm1
+bm0 puts burger id:27
+bc0 gets burger id:27 from bm0
+bm1 puts burger id:28
+bc1 gets burger id:28 from bm1
+bm0 puts burger id:29
+bc1 gets burger id:29 from bm0
+Summary:
+hm0 makes 16
+hm1 makes 14
+bm0 makes 15
+bm1 makes 15
+hc0 packs 16
+hc1 packs 14
+bc0 packs 13
+bc1 packs 17
+Hotdogs: 30
+Burgers: 30
+Capacity: 5
+Hotdog Makers: 2
+Burger Makers: 2
+Hotdog Packers: 2
+Burger Packers: 2
+hm0 puts hotdog id:0
+hm1 puts hotdog id:1
+hc0 gets hotdogs id:0 from hm0 and id:1 from hm1
+hm0 puts hotdog id:2
+bm1 puts burger id:1
+bm0 puts burger id:0
+hm0 puts hotdog id:4
+bc0 gets burger id:1 from bm1
+bc1 gets burger id:0 from bm0
+hm1 puts hotdog id:3
+hm0 puts hotdog id:5
+hc1 gets hotdogs id:2 from hm0 and id:4 from hm0
+hc0 gets hotdogs id:3 from hm1 and id:5 from hm0
+hm1 puts hotdog id:6
+bm1 puts burger id:2
+bc1 gets burger id:2 from bm1
+hm0 puts hotdog id:7
+bm0 puts burger id:3
+hm1 puts hotdog id:8
+hc1 gets hotdogs id:6 from hm1 and id:7 from hm0
+bc0 gets burger id:3 from bm0
+hm0 puts hotdog id:9
+hc0 gets hotdogs id:8 from hm1 and id:9 from hm0
+hm1 puts hotdog id:10
+bm1 puts burger id:4
+hm0 puts hotdog id:11
+bm0 puts burger id:5
+hm1 puts hotdog id:12
+bc0 gets burger id:4 from bm1
+hc1 gets hotdogs id:10 from hm1 and id:11 from hm0
+hm1 puts hotdog id:14
+hm0 puts hotdog id:13
+bm1 puts burger id:6
+bc0 gets burger id:5 from bm0
+hm0 puts hotdog id:16
+hm1 puts hotdog id:15
+hc0 gets hotdogs id:12 from hm1 and id:14 from hm1
+bm0 puts burger id:7
+bc0 gets burger id:6 from bm1
+bm1 puts burger id:8
+hc1 gets hotdogs id:13 from hm0 and id:16 from hm0
+hm0 puts hotdog id:17
+hm1 puts hotdog id:18
+bc0 gets burger id:7 from bm0
+bc1 gets burger id:8 from bm1
+hm1 puts hotdog id:20
+hm0 puts hotdog id:19
+bm0 puts burger id:9
+hc0 gets hotdogs id:15 from hm1 and id:17 from hm0
+hm1 puts hotdog id:21
+hm0 puts hotdog id:22
+hc1 gets hotdogs id:18 from hm1 and id:20 from hm1
+bm1 puts burger id:10
+hm1 puts hotdog id:23
+bc1 gets burger id:9 from bm0
+hm0 puts hotdog id:24
+hc0 gets hotdogs id:19 from hm0 and id:21 from hm1
+bm0 puts burger id:11
+hm1 puts hotdog id:25
+bc0 gets burger id:10 from bm1
+bm1 puts burger id:12
+hc1 gets hotdogs id:22 from hm0 and id:23 from hm1
+hm0 puts hotdog id:26
+bc1 gets burger id:11 from bm0
+hm1 puts hotdog id:27
+hc0 gets hotdogs id:24 from hm0 and id:25 from hm1
+bm0 puts burger id:13
+bc0 gets burger id:12 from bm1
+hm0 puts hotdog id:28
+hm1 puts hotdog id:29
+bm1 puts burger id:14
+hc1 gets hotdogs id:26 from hm0 and id:27 from hm1
+bc1 gets burger id:13 from bm0
+hc0 gets hotdogs id:28 from hm0 and id:29 from hm1
+bc0 gets burger id:14 from bm1
+bm0 puts burger id:15
+bc1 gets burger id:15 from bm0
+bm1 puts burger id:16
+bc0 gets burger id:16 from bm1
+bm0 puts burger id:17
+bc1 gets burger id:17 from bm0
+bm1 puts burger id:18
+bc0 gets burger id:18 from bm1
+bm0 puts burger id:19
+bc1 gets burger id:19 from bm0
+bm1 puts burger id:20
+bc0 gets burger id:20 from bm1
+bm0 puts burger id:21
+bc1 gets burger id:21 from bm0
+bm1 puts burger id:22
+bc0 gets burger id:22 from bm1
+bm0 puts burger id:23
+bc1 gets burger id:23 from bm0
+bm1 puts burger id:24
+bc0 gets burger id:24 from bm1
+bm0 puts burger id:25
+bc1 gets burger id:25 from bm0
+bm1 puts burger id:26
+bc0 gets burger id:26 from bm1
+bm0 puts burger id:27
+bc1 gets burger id:27 from bm0
+bm1 puts burger id:28
+bc0 gets burger id:28 from bm1
+bm0 puts burger id:29
+bc1 gets burger id:29 from bm0
+Summary:
+hm0 makes 15
+hm1 makes 15
+bm0 makes 15
+bm1 makes 15
+hc0 packs 16
+hc1 packs 14
+bc0 packs 16
+bc1 packs 14
+Hotdogs: 30
+Burgers: 30
+Capacity: 5
+Hotdog Makers: 3
+Burger Makers: 3
+Hotdog Packers: 3
+Burger Packers: 3
+hm0 puts hotdog id:0
+hm2 puts hotdog id:2
+hm1 puts hotdog id:1
+hc0 gets hotdogs id:0 from hm0 and id:2 from hm2
+bm2 puts burger id:2
+bm0 puts burger id:1
+bm1 puts burger id:0
+hm0 puts hotdog id:3
+bc1 gets burger id:2 from bm2
+hm1 puts hotdog id:5
+bc0 gets burger id:1 from bm0
+hm0 puts hotdog id:6
+bc2 gets burger id:0 from bm1
+hm2 puts hotdog id:4
+bm0 puts burger id:4
+hc2 gets hotdogs id:1 from hm1 and id:3 from hm0
+hm1 puts hotdog id:7
+hc1 gets hotdogs id:5 from hm1 and id:6 from hm0
+bm2 puts burger id:3
+hm0 puts hotdog id:8
+bc1 gets burger id:4 from bm0
+hm2 puts hotdog id:9
+hm0 puts hotdog id:11
+hc2 gets hotdogs id:4 from hm2 and id:7 from hm1
+hm1 puts hotdog id:10
+bc0 gets burger id:3 from bm2
+bm1 puts burger id:5
+hc0 gets hotdogs id:8 from hm0 and id:9 from hm2
+bm0 puts burger id:6
+hm2 puts hotdog id:12
+bm2 puts burger id:7
+hc2 gets hotdogs id:11 from hm0 and id:10 from hm1
+bc2 gets burger id:5 from bm1
+bc1 gets burger id:6 from bm0
+hm2 puts hotdog id:15
+bm1 puts burger id:8
+hm1 puts hotdog id:14
+bc0 gets burger id:7 from bm2
+hm0 puts hotdog id:13
+bm2 puts burger id:10
+hc1 gets hotdogs id:12 from hm2 and id:15 from hm2
+bc1 gets burger id:8 from bm1
+bm0 puts burger id:9
+bm1 puts burger id:11
+hm2 puts hotdog id:16
+hc2 gets hotdogs id:14 from hm1 and id:13 from hm0
+hm0 puts hotdog id:18
+bc2 gets burger id:10 from bm2
+hm2 puts hotdog id:19
+bc1 gets burger id:9 from bm0
+hm0 puts hotdog id:20
+bc2 gets burger id:11 from bm1
+hm2 puts hotdog id:21
+hc0 gets hotdogs id:16 from hm2 and id:18 from hm0
+hm1 puts hotdog id:17
+hm2 puts hotdog id:23
+bm2 puts burger id:12
+hc2 gets hotdogs id:19 from hm2 and id:20 from hm0
+hm1 puts hotdog id:24
+hc1 gets hotdogs id:21 from hm2 and id:17 from hm1
+hm2 puts hotdog id:25
+bm0 puts burger id:13
+hm0 puts hotdog id:22
+bc2 gets burger id:12 from bm2
+bm1 puts burger id:14
+hc2 gets hotdogs id:23 from hm2 and id:24 from hm1
+bm2 puts burger id:15
+hm1 puts hotdog id:26
+bc1 gets burger id:13 from bm0
+hm0 puts hotdog id:28
+hc0 gets hotdogs id:25 from hm2 and id:22 from hm0
+bc1 gets burger id:14 from bm1
+hm2 puts hotdog id:27
+bm1 puts burger id:17
+bc2 gets burger id:15 from bm2
+hm1 puts hotdog id:29
+bm2 puts burger id:18
+hc2 gets hotdogs id:26 from hm1 and id:28 from hm0
+bm0 puts burger id:16
+bc1 gets burger id:17 from bm1
+bm1 puts burger id:19
+hc1 gets hotdogs id:27 from hm2 and id:29 from hm1
+bc0 gets burger id:18 from bm2
+bc1 gets burger id:16 from bm0
+bc2 gets burger id:19 from bm1
+bm2 puts burger id:20
+bc0 gets burger id:20 from bm2
+bm0 puts burger id:21
+bc1 gets burger id:21 from bm0
+bm1 puts burger id:22
+bc2 gets burger id:22 from bm1
+bm2 puts burger id:23
+bc1 gets burger id:23 from bm2
+bm0 puts burger id:24
+bc2 gets burger id:24 from bm0
+bm1 puts burger id:25
+bc0 gets burger id:25 from bm1
+bm2 puts burger id:26
+bc0 gets burger id:26 from bm2
+bm0 puts burger id:27
+bc2 gets burger id:27 from bm0
+bm1 puts burger id:28
+bc1 gets burger id:28 from bm1
+bm2 puts burger id:29
+bc1 gets burger id:29 from bm2
+Summary:
+hm0 makes 10
+hm1 makes 9
+hm2 makes 11
+bm0 makes 9
+bm1 makes 10
+bm2 makes 11
+hc0 packs 8
+hc1 packs 8
+hc2 packs 14
+bc0 packs 7
+bc1 packs 13
+bc2 packs 10
+Hotdogs: 30
+Burgers: 30
+Capacity: 5
+Hotdog Makers: 3
+Burger Makers: 3
+Hotdog Packers: 3
+Burger Packers: 3
+hm2 puts hotdog id:2
+hm1 puts hotdog id:1
+hm0 puts hotdog id:0

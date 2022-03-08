@@ -9,7 +9,6 @@ import java.util.concurrent.TimeUnit;
 import machine.Machine;
 import machine.MakerBurger;
 import machine.MakerHotdog;
-import machine.Packer;
 import machine.PackerBurger;
 import machine.PackerHotdog;
 import resource.CommonPool;
@@ -73,9 +72,6 @@ public class FoodManager {
         for (Machine m : machines) {
             Thread t = new Thread(m);
             t.setName(m.getMachineId());
-            if (m instanceof Packer) {
-                t.setPriority(6);
-            }
             machineThreads.add(t);
             map.put(m, t);
         }

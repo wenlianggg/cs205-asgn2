@@ -1,4 +1,5 @@
 package resource;
+
 public class TodoList {
     
     private int hotdogsToMake;

@@ -3,6 +3,7 @@ package machine;
 import java.util.concurrent.TimeUnit;
 
 public interface Machine extends Runnable {
+    
     String getExitMessage();
     
     String getMachineId();
