@@ -1,7 +1,5 @@
 package resource;
 
-import java.time.LocalDateTime;
-
 import food.Burger;
 import food.Food;
 import food.Hotdog;
