@@ -13,14 +13,11 @@ import util.Printer;
  */
 public class CommonPool {
     
-    public volatile LocalDateTime lastAction;
-
     CircularQueue queue;
     private volatile long prioritisedThread = -1;
     private Object priorityLock = new Object();
 
     public CommonPool(int bufferSize) {
-        lastAction = LocalDateTime.now();
         queue = new CircularQueue(bufferSize);
     }
 
@@ -32,7 +29,6 @@ public class CommonPool {
      */
     public void add(Food food, String source) throws InterruptedException {
         // Update the last action time
-        lastAction = LocalDateTime.now();
         queue.enqueue(food);
     }
 
@@ -62,8 +58,7 @@ public class CommonPool {
             }
 
             // Update the last action time
-            lastAction = LocalDateTime.now();
-            ret = (Hotdog) queue.get(Hotdog.class);
+            ret = (Hotdog) queue.dequeue(Hotdog.class);
 
             // Release the priority so that another hotdog maker can take
             if (nth == 2) {
@@ -82,9 +77,8 @@ public class CommonPool {
      * @throws InterruptedException
      */
     public Burger removeBurger() throws InterruptedException {
-        lastAction = LocalDateTime.now();
         Burger ret = null;
-        ret = (Burger) queue.get(Burger.class);
+        ret = (Burger) queue.dequeue(Burger.class);
         return ret;
     }
 
@@ -97,9 +91,9 @@ public class CommonPool {
 class CircularQueue {
 
     private Food[] buffer;
-    private int front = 0;
-    private int back = 0;
-    public int item_count = 0;
+    private volatile int front = 0;
+    private volatile int back = 0;
+    public volatile int item_count = 0;
 
     public CircularQueue(int size){
         buffer = new Food[size];
@@ -134,7 +128,7 @@ class CircularQueue {
      * @return The actual food removed from the shared buffer
      * @throws InterruptedException
      */
-    public synchronized <T extends Food> Food get(Class<T> type) throws InterruptedException {
+    public synchronized <T extends Food> Food dequeue(Class<T> type) throws InterruptedException {
 
         while (item_count == 0 || !type.isInstance(buffer[front])){
             this.wait(); // Buffer is empty or of wrong type, block

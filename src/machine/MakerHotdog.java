@@ -5,7 +5,7 @@ import resource.CommonPool;
 import resource.TodoList;
 import util.Printer;
 
-public class MakerHotdog implements Machine {
+public class MakerHotdog implements Maker {
     
     int machineId;
 

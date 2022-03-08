@@ -4,7 +4,7 @@ import food.Hotdog;
 import resource.CommonPool;
 import util.Printer;
 
-public class PackerHotdog implements Machine {
+public class PackerHotdog implements Packer {
 
     int machineId;
 

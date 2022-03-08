@@ -7,6 +7,7 @@ import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 import machine.Machine;
+import machine.Maker;
 import machine.MakerBurger;
 import machine.MakerHotdog;
 import machine.PackerBurger;
@@ -72,6 +73,9 @@ public class FoodManager {
         for (Machine m : machines) {
             Thread t = new Thread(m);
             t.setName(m.getMachineId());
+            if (m instanceof Maker) {
+                t.setPriority(Thread.NORM_PRIORITY - 1);
+            }
             machineThreads.add(t);
             map.put(m, t);
         }
@@ -80,11 +84,11 @@ public class FoodManager {
             boolean killed = false;
 
             while (!killed) {
-                try { TimeUnit.SECONDS.sleep(10); } catch (InterruptedException e) {};
-                LocalDateTime cutoff = LocalDateTime.now().minusSeconds(10);
-                if (commonPool.lastAction.isBefore(cutoff)) {
+                try { TimeUnit.SECONDS.sleep(2); } catch (InterruptedException e) {};
+                LocalDateTime cutoff = LocalDateTime.now().minusSeconds(9);
+                if (Printer.lastAction.isBefore(cutoff)) {
                     Printer.println("Summary:");
-                    try { Thread.sleep(10000); } catch (InterruptedException e) {};
+                    try { TimeUnit.SECONDS.sleep(2); } catch (InterruptedException e) {};
                     for (Map.Entry<Machine, Thread> entry : map.entrySet()) {
                         entry.getValue().interrupt();
                     }

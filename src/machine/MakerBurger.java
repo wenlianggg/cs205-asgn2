@@ -5,7 +5,7 @@ import resource.CommonPool;
 import resource.TodoList;
 import util.Printer;
 
-public class MakerBurger implements Machine {
+public class MakerBurger implements Maker {
     
     int machineId;
 

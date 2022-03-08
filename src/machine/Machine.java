@@ -13,4 +13,3 @@ public interface Machine extends Runnable {
     }
 }
 
-

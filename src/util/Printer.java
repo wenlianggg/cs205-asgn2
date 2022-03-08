@@ -2,10 +2,13 @@ package util;
 
 import java.io.FileWriter;
 import java.io.IOException;
+import java.time.LocalDateTime;
 
 public class Printer {
 
     public static final boolean ENABLED = false;
+
+    public static volatile LocalDateTime lastAction = LocalDateTime.now();
 
     public static void printf(String fmt, Object ...objs) {
         println(String.format(fmt, objs));
@@ -13,6 +16,8 @@ public class Printer {
 
     public static void println(Object ...objs) {
         String[] strs = new String[objs.length];
+
+        lastAction = LocalDateTime.now();
 
         for (int i = 0; i < objs.length; i++) {
             strs[i] = objs[i].toString();
