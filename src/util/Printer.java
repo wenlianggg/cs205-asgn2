@@ -21,7 +21,7 @@ public class Printer {
         System.out.println(String.join(" ", strs));
         System.out.flush();
 
-        try (FileWriter file = new FileWriter("foodmanager-log.txt", true)) {
+        try (FileWriter file = new FileWriter("foodmanager.log", true)) {
             file.write(String.join(" ", strs) + "\n");
         } catch (IOException e) {
             e.printStackTrace();
