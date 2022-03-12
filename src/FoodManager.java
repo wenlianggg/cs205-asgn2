@@ -1,10 +1,10 @@
 
 import java.time.LocalDateTime;
+import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.concurrent.TimeUnit;
 
 import machine.Machine;
 import machine.Maker;
@@ -84,11 +84,10 @@ public class FoodManager {
             boolean killed = false;
 
             while (!killed) {
-                try { TimeUnit.SECONDS.sleep(2); } catch (InterruptedException e) {};
-                LocalDateTime cutoff = LocalDateTime.now().minusSeconds(9);
+                try { Machine.simulateWork(2000); } catch (InterruptedException e) {};
+                LocalDateTime cutoff = LocalDateTime.now().minus((int) (9000 * Machine.TIME_MULTIPLIER), ChronoUnit.MILLIS);
                 if (Printer.lastAction.isBefore(cutoff)) {
                     Printer.println("Summary:");
-                    try { TimeUnit.SECONDS.sleep(2); } catch (InterruptedException e) {};
                     for (Map.Entry<Machine, Thread> entry : map.entrySet()) {
                         entry.getValue().interrupt();
                     }
